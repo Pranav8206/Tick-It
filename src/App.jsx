@@ -99,7 +99,7 @@ function App() {
             Just Tick It.</div>
 
           <div className='add-task flex justify-start px-2 relative'>
-            <input onChange={handleChange} value={todo} className='h-10 pr-12 pl-2  sm:py-2 md:py-3 bg-[#c0c3da] text-black  placeholder:font-light placeholder:text-xm placeholder-[#969696] border-none rounded-full text-2xl' type="text"
+            <input onChange={handleChange} value={todo} className='h-10 pr-12 pl-2  sm:py-2 md:py-3 bg-[#c0c3da] text-black  placeholder:font-light placeholder:text-xm placeholder-[#969696] border-none rounded-full text-[16px] sm:text-xl' type="text"
               placeholder='Enter your task here!!' name='task' />
 
             <button onClick={handleAdd} disabled={todo.length <= 2} className='plusBTN disabled:opacity-30 text-2xl font-bold absolute right-5 top-[10px] '>
